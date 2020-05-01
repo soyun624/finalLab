@@ -9,10 +9,12 @@
     <style>
         body {
             background-color: #ebf2ea;
+            margin-top: 0;
+            margin-left: 0;
         }
         
         h1 {
-            margin-left: 5vw;
+            margin-left: 12.5vw;
             font-family: 'Paytone One', sans-serif;
             margin-bottom: 10px;
             color: #80ADD7;
@@ -30,6 +32,7 @@
             margin-left: 3vw;
             display: block;
             text-align: center;
+            margin-top: 50px;
         }
         
         .contents {
@@ -49,6 +52,7 @@
         
         .heading {
             font-family: 'Lobster', cursive;
+            font-size: 1.3em;
         }
         
         p,
@@ -77,10 +81,62 @@
         a {
             text-decoration: none;
         }
+        /* this is menu part */
+        
+        .menu {
+            width: 100vw;
+            height: 80px;
+            background-color: #0ABDA0;
+        }
+        
+        nav a {
+            font-family: 'Paytone One', sans-serif;
+            text-decoration: none;
+            color: #EBF2EA;
+            padding: 10px 10px;
+        }
+        
+        nav :hover {
+            color: #D4DCA9;
+            padding-bottom: 2px;
+        }
+        
+        nav {
+            width: 100vw;
+            height: 80px;
+            color: #4f4f4f;
+            font-size: 1.1em;
+            text-align: right;
+            line-height: 100px;
+            margin-right: 0px;
+        }
+        
+        .title {
+            font-family: 'Paytone One', sans-serif;
+            width: 150px;
+            position: absolute;
+            margin-left: 30px;
+            text-align: left;
+            line-height: 80px;
+            font-size: 3em;
+            z-index: 10000;
+            color: #D4DCA9;
+        }
     </style>
 </head>
 
 <body>
+    <!--this is manu-->
+    <div class="title">Salac.</div>
+    <div class="menu">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="htmlcss.html">HTML/CSS</a>
+            <a href="js.html">JavaScript</a>
+            <a href="python.html">Python</a>
+            <a href="java.html">Java</a>
+        </nav>
+    </div>
     <h1>PYTHON</h1>
 
     <div class="main">
