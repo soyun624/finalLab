@@ -4,62 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Salac</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Muli:wght@300&family=Paytone+One&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-        }
-        
         body {
-            background-color: #D4DCA9;
+            background-color: #ebf2ea;
         }
         
-        .container1 {
-            width: 100%;
-            height: 40px;
-            background-color: lightgray;
-            line-height: 40px;
-            text-align: right;
-        }
-        
-        nav a {
-            text-decoration: solid;
+        h1 {
+            margin-left: 5vw;
+            font-family: 'Paytone One', sans-serif;
+            margin-bottom: 10px;
             color: #80ADD7;
-            padding: 5px 10px;
-            font-size: 1.2em;
         }
         
-        nav a:hover {
-            color: #0ABDA0;
+        .main {
+            width: 100vw;
+            display: flex;
         }
         
-        .title {
-            height: 55px;
-            width: 100%;
-            background-color: #EBF2EA;
-            color: #BF9D7A;
+        .leftbox {
+            width: 30vw;
+            height: 100%;
+            background-color: white;
+            margin-left: 3vw;
+            display: block;
             text-align: center;
-            font-size: 3rem;
-            padding: 10px;
-            position: relative;
+        }
+        
+        .contents {
+            width: 60vw;
+            height: 100%;
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+        
+        .subtitle {
+            font-family: 'Paytone One', sans-serif;
+            font-size: 1.5em;
+            color: #80ADD7;
+            margin: 10px auto;
+            margin-left: 15px;
+        }
+        
+        .heading {
+            font-family: 'Lobster', cursive;
+        }
+        
+        p,
+        .overview {
+            margin: 20px;
+            font-family: 'Muli', sans-serif;
+        }
+        
+        .overview {
+            text-align: left;
+            line-height: 30px;
+            margin-top: 50px;
+            color: gray;
+        }
+        
+        img {
+            width: 70%;
+            display: inline;
+            margin-top: 20px;
+        }
+        
+        b {
+            color: #bf9d7a;
+        }
+        
+        a {
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <div class="title">About Python</div>
-    <div class="box">
-        <div class="container1">
-            <nav class="menu">
-                <a href="#">Home</a>
-                <a href="#">HTML / CSS</a>
-                <a href="#">JavaScript</a>
-                <a href="#">Python</a>
-                <a href="#">Java</a>
-            </nav>
+    <h1>PYTHON</h1>
+
+    <div class="main">
+        <!--this is information part-->
+        <div class="leftbox">
+            <img class="logo" src="images/430.png" alt="python_logo">
+            <p class="overview"><b>Developer : </b> Python Software Foundation<br>
+                <b>First appeared :</b>1990<br>
+                <b>Stable release :</b> 3.8.2 / 24 February 2020<br>
+                <b>Designed by : </b>Guido van Rossum<br>
+                <b>Paradigm: </b>Multi-paradigm: functional, imperative, object-oriented, structured, reflective<br>
+                <b>Website :</b><a href="https://www.python.org/" target="_blank"> www.python.org</a>
+            </p>
+        </div>
+        <!--this is About Python-->
+        <div class="contents">
+            <p class="subtitle">About Python</p>
+            <hr color="##80ADD7" size="1" width="95%" noshade />
+            <p> Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted
+                nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+            </p>
+            <!--this is code start!-->
+            <p class="subtitle">Sample Code</p>
+            <hr color="##80ADD7" size="1" width="95%" noshade />
+            <h3 class="heading"> Addition</h3>
+            <iframe src="https://ideone.com/VljxUk" width="80%" height="300px"></iframe>
+            <!--this is Append-->
+            <h3 class="heading"> Append </h3>
+            <p>Python List append() The append() method adds an item to the end of the list. Return Value from pop()</p>
+            <p>The pop() method returns the item present at the given index. This item is also removed from the list.
+            </p>
+            <iframe src="https://ideone.com/rGRKCk" width="80%" height="300px"></iframe>
+            <!--this is List-->
+            <h3 class="heading"> List </h3>
+            <p>List is an ordered sequence of items.It is one of the most used datatype in Python and is very flexible.</p>
+            <p>List Index We can use the index operator [] to access an item in a list. Index starts from 0. So, a list having 5 elements will have an index from 0 to 4.</p>
+            <iframe src="https://ideone.com/wBN1U4" width="80%" height="300px"></iframe>
+            <p>Negative indexing Python allows negative indexing for its sequences. The index of -1 refers to the last item, -2 to the second last item and so on.</p>
+            </p>
+            <!--this is Function-->
+            <iframe src="https://ideone.com/SHZ3u7" width="80%" height="300px"></iframe>
+            <h3 class="heading">Function</h3>
+            <p>In Python a function is defined using the def keyword.</p>
+            <p>To call a function, use the function name followed by parenthesis.</p>
+            <iframe src="https://ideone.com/wUVbPv" width="80%" height="300px"></iframe>
+            <!--this is Random-->
+            <h3 class="heading">Random</h3>
+            <p>Program to generate a random number </p>
+            <iframe src=" https://ideone.com/tYAqqY" width="80%" height="300px"></iframe>
+
+
         </div>
     </div>
-
 </body>
 
 </html>
