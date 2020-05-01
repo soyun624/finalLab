@@ -8,6 +8,8 @@
     <style>
         body{
             background-color: #ebf2ea;
+            margin-top: 0;
+            margin-left: 0;
         }
         h1 {
             margin-left: 5vw;
@@ -78,14 +80,71 @@
             font-weight : bold;
         }
         iframe{
-            margin-left: 7%;
+            margin-left: 2.5%;
 
         }
+        .menu {
+            width: 100vw;
+            height: 80px;
+            background-color: #0ABDA0;
+
+        }
+
+        nav a {
+            font-family: 'Paytone One', sans-serif;
+            text-decoration: none;
+            color: #EBF2EA;
+            padding: 10px 10px;
+            
+        }
+
+        nav :hover{
+            color: #D4DCA9;
+            padding-bottom: 2px;
+        }
+
+        nav{
+        width:100vw;
+        height: 80px;
+        color: #4f4f4f;
+        font-size: 1.1em;
+        text-align: right;
+        line-height: 100px;
+        margin-right: 0px;
+        
+        }   
+
+        .title{
+        font-family: 'Paytone One', sans-serif;
+        width: 150px;
+        position: absolute;
+        margin-left: 30px;
+        text-align: left;
+        line-height: 80px;
+        font-size: 3em;
+        z-index: 10000;  
+        color:#D4DCA9;  
+    }
     </style>
 </head>
 <body>
-    <h1>JAVA</h1>
 
+    <div class="title">Salac.</div>
+        <div class="menu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="htmlcss.html">HTML/CSS</a>
+                <a href="js.html">JavaScript</a>
+                <a href="python.html">Python</a>
+                <a href="java.html">Java</a>
+            </nav>
+        </div>
+    </div>
+
+    <h1>JAVA</h1>
+    <div class = "navi">
+        
+    </div>
     <div class="main">
         <div class="leftbox">
             <img class="logo" src="images/java_logo.png" alt="java_logo">
@@ -111,11 +170,12 @@
             
             <p class="subtitle">Sample Code</p>
                 <hr color = "#80add7" size="1" width = "95%" noshade /> 
-                <iframe src="https://ideone.com/nWUVHE" width="87%" height="550px" frameborder="0"></iframe>
+                <iframe src="https://ideone.com/nWUVHE" width="95%" height="550px" frameborder="0"></iframe>
             </p>
 
         </div>
     </div>
+    
 
 </body>
 </html>
